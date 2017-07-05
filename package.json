@@ -1,0 +1,25 @@
+{
+  "name": "game-of-emojis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "eslint": "^3.19.0",
+    "eslint-config-iplayer-es6": "^3.1.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6"
+  }
+}
